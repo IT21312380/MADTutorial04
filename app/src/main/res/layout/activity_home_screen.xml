@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BA6E1"
+    tools:context=".Home_Screen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="244dp"
+        android:layout_height="117dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#B60F0F"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="306dp"
+        android:layout_height="52dp"
+        android:text="This is our home page"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="231dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
